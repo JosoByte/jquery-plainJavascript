@@ -1,0 +1,14 @@
+{
+    "posts": {
+        "0": {
+            "title": "Lorem ipsum",
+            "fecha": "24 de Mayo de 2020",
+            "cuerpo": "Esto es el cuerpo del post, no tiene mucho Esto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene muchoEsto es el cuerpo del post, no tiene mucho"
+        },
+        "1": {
+            "title": "Lorem ipsum",
+            "fecha": "26 de Mayo de 2020",
+            "cuerpo": "Esto es el cuerpo del post dos, no tiene mucho"
+        }
+    }
+}
