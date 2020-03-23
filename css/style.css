@@ -3,8 +3,9 @@ body{
 }
 .cuerpoPagina{
     background-color: white;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    width: 100%;
 }
 .containerTituloPagina{
     padding-left: 2em;
