@@ -59,22 +59,6 @@ function checkForm() {
     }
   }
 
-    //load clock
-    function startTime() {
-        var hoy = new Date();
-        var h = hoy.getHours();
-        var m = hoy.getMinutes();
-        var s = hoy.getSeconds();
-        m = checkTime(m);
-        s = checkTime(s);
-        document.getElementById('clock').innerHTML =
-        h + ":" + m + ":" + s;
-        var t = setTimeout(startTime, 500);
-      }
-    function checkTime(i) {
-        if (i < 10) {i = "0" + i}; 
-        return i;
-    }
 
 window.onload = function(){
     //slider
@@ -162,4 +146,25 @@ window.onload = function(){
         $( "#accordion" ).accordion();
     } );
 }
+function x2(n,i,x1,r) {return x1 + r*Math.sin(2*Math.PI*n/i);};
+function y2(n,i,y1,r) {return y1 - r*Math.cos(2*Math.PI*n/i);};
 
+$(function(){
+    function check_hour( ) {
+      var d = new Date();
+      var h = d.getHours();
+      var m = d.getMinutes();
+      var s = d.getSeconds();
+      var ds = Math.floor(d.getMilliseconds()/100);
+      if (h < 10) h = "0" + h;
+      if (m < 10) m = "0" + m;
+      if (s < 10) s = "0" + s;
+      $('#tex').html(h + ":" + m + ":" + s);
+      $('#ds').attr('x2', x2(ds,10,120,8)).attr('y2', y2(ds,10,100,8))
+      $('#seg').attr('x2', x2(s,60,100,50)).attr('y2', y2(s,60,70,50));
+      $('#min').attr('x2', x2(m,60,100,40)).attr('y2', y2(m,60,70,40));
+      $('#hor').attr('x2', x2(h,12,100,30)).attr('y2', y2(h,12,70,30));
+    }
+    setInterval(function(){check_hour();}, 100);
+    check_hour();
+  })

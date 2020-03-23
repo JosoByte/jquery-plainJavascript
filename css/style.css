@@ -45,6 +45,21 @@ body{
     margin: 4px 2px;
     cursor: pointer;
   }
+  svg {
+
+    fill: white;
+    stroke: black;
+    stroke-width: 0.2;
+    stroke-linecap: round;
+  }
+.temas{
+  position: fixed;
+  top: 50%;
+  background-color: black;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 1vh;
+}
 
 .tituloVerde{
     color: white;
@@ -108,3 +123,9 @@ ul {
   #green .ui-slider-handle { border-color: #8ae234; }
   #blue .ui-slider-range { background: #729fcf; }
   #blue .ui-slider-handle { border-color: #729fcf; }
+
+ 
+  #tex {
+    font-family: 'Black Ops One', cursive;
+    font-size: .6em;
+  }
