@@ -5,25 +5,24 @@ body{
     background-color: white;
     margin-left: 10vh;
     margin-right: 10vh;
-    width: 100%;
 }
 .containerTituloPagina{
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
     display: grid;
     grid-gap: 10px;
 }
 .containerPagina{
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 0.1em;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 0.1vh;
 }
 .containerTexto{
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 1vh;
 }
 .containerPost{
     text-align: justify;
@@ -50,18 +49,18 @@ body{
 .tituloVerde{
     color: white;
     background-color: green;
-    font-size: 6em;
+    font-size: 6vh;
     padding: 10px;
     grid-area: 1, 2, 2, 2;
 }
 .barraBusqueda{
-    padding-top:1.5em;
+    padding-top:1.5vh;
     grid-area: 1, 2, 2, 4;
-    padding-left:27em;
+    padding-left:27vh;
 }
 .textoBusqueda{
-    grid-area: 1, 2, 2, 4;
-    font-size: 2em;
+    grid-area: 1, 2, 3, 4;
+    font-size: 2vh;
     position: right;
 }
 ul {
@@ -75,7 +74,7 @@ ul {
   
   li {
     float: left;
-    font-size: 1.5em;
+    font-size: 1.5vh;
   }
   
   li a {
